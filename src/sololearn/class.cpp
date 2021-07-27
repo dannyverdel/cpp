@@ -1,32 +1,14 @@
 #include <iostream>
-
-class person
-{
-public:
-    person(int age)
-    {
-        _age = age;
-    }
-
-private:
-    int _age;
-
-public:
-    void say_hi()
-    {
-        std::cout << "Helloooo, I am " << _age << " years old" << std::endl;
-    }
-    void setAge(int age)
-    {
-        _age = age;
-    }
-};
+#include "class.h"
 
 int main()
 {
-    person me(17);
-    me.say_hi();
-    me.setAge(18);
-    me.say_hi();
+    person me(25, 7, 2002, 18);
+    person you(25, 7, 2002, 18);
+    me.this_birthday();
+
+    person res = me + you;
+    std::cout << "We have a combined age of " << res.age << std::endl;
+
     return 0;
 }
