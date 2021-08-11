@@ -67,7 +67,8 @@
         "stack": "cpp",
         "__tree": "cpp",
         "map": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "future": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
