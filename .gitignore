@@ -33,3 +33,6 @@
 
 # xcode
 TheChernoExerciseFiles.xcodeproj/
+
+# Mac files
+.DS_Store
